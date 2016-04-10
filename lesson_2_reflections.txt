@@ -6,4 +6,10 @@ How is the staging area different from the working directory and the repository?
 The staging area contains informations about files that are intended to be committed to the repository during the
 current commit. There may be files in the working directory that are not tracked in the staging area. It allows 
 keeping commits more granular then committing everything in the working directory at the same time and also more 
-logical because only changes that go together can be chosen to be committed together. 
+logical because only changes that go together can be chosen to be committed together.
+
+How can you use the staging area to make sure you have one commit per logical change?
+The staging area allows changes between the working directory be compared with it and its changes be compared with
+the repository. It also allows changes added to it be reverted if the user doesn't want them to be committed.
+This gives the user a lot of flexibility as to which changes he/she wants to commit and which not. So the user can
+use these features to only commit changes that belong with each other logically.
