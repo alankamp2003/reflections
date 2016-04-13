@@ -13,3 +13,8 @@ The staging area allows changes between the working directory be compared with i
 the repository. It also allows changes added to it be reverted if the user doesn't want them to be committed.
 This gives the user a lot of flexibility as to which changes he/she wants to commit and which not. So the user can
 use these features to only commit changes that belong with each other logically.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+You could make a branch to work on a enhancing or adding a specific part of/to the project. You could be making changes
+to head and to the branch at about the same time. But with branches,  the changes won't get mixed up and you'll know in 
+which sequence a certain chronological sequence of changes were made.   
