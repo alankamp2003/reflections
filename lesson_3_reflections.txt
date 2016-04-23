@@ -16,6 +16,10 @@ but you don't want to cause any problems for the people who are interested in th
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 It allows git to compare any changes that you made to a local branch with the changes on GitHub without having to pull
-any changes from GitHub. 
+any changes from GitHub.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I could use cvs, svn or some other tool. I am not sure about what would be harder or easier because they all support similar
+features, I believe and I don't have an in-depth knowledge of any of them.
 
 
