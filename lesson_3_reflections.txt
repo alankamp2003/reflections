@@ -13,3 +13,9 @@ all you want to do is have your own copy of an existing repository on GitHub and
 Clones can be used when you want to make a copy of a local repository on your own computer or if you want to copy a
 remote repository on your computer. Branches can be used if you want to work on some code that's part of a repository
 but you don't want to cause any problems for the people who are interested in the repository but not in your changes.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+It allows git to compare any changes that you made to a local branch with the changes on GitHub without having to pull
+any changes from GitHub. 
+
+
