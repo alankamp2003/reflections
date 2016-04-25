@@ -22,4 +22,7 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 I could use cvs, svn or some other tool. I am not sure about what would be harder or easier because they all support similar
 features, I believe and I don't have an in-depth knowledge of any of them.
 
-
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Making changes in a branch allows the master branch to stay free of the errors and/or problems caused by the changes made
+to the branch. If changes are made directly to master then the process of merge with and possibly deleting the branch doesn't 
+need to take place. 
